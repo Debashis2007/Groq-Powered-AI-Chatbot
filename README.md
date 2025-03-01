@@ -1,6 +1,6 @@
 **Groq-Powered AI Chatbot**
 
-** AI Chatbot Application Utilizing Groq API **
+**AI Chatbot Application Utilizing Groq API**
 
 ---
 
