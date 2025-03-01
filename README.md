@@ -1,6 +1,6 @@
 **Groq-Powered AI Chatbot**
 
-**A Free AI Chatbot Application Utilizing Groq API with a ChatGPT-Style Web Interface**
+** AI Chatbot Application Utilizing Groq API **
 
 ---
 
