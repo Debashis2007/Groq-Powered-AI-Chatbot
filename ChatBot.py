@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Initialize the LLM with the model and API key
-api_key = "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"
+api_key = "gsk_CfKXXXXXXXXXX"
 llm = Groq(model="llama3-70b-8192", api_key=api_key)
 
 # Thread-safe storage for user histories, now with session-based history
