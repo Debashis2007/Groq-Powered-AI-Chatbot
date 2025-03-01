@@ -24,8 +24,8 @@ The Groq-Powered AI Chatbot is a highly efficient and scalable conversational AI
 ### **Installation Guide**
 #### **Clone the Project Repository:**
 ```sh
-git clone https://github.com/SakibAhmedShuva/Groq-Based-LLM-ChatBot-App.git
-cd Groq-Based-LLM-ChatBot-App
+git clone https://github.com/Debashis2007/Groq-Powered-AI-Chatbot.git
+cd Groq-Powered-AI-Chatbot
 ```
 #### **Install Dependencies:**
 ```sh
@@ -33,81 +33,17 @@ pip install -r requirements.txt
 ```
 #### **Configure API Access:**
 1. Create a Groq account and generate an API key.
-2. Replace the `api_key` variable in `bot.py` with your Groq API key.
+2. Use as Groq API key.
 
 ---
 
 ### **How to Use**
 #### **Run the Flask Server:**
 ```sh
-python bot.py
+python chatbot.py
 ```
 #### **Access the Chat Interface:**
 Open `index.html` in your preferred web browser.
-
----
-
-### **Available API Endpoints**
-#### **1. Start a New Chat Session**
-- **Endpoint:** `/create-session`
-- **Method:** `POST`
-- **Response Example:**
-```json
-{
-  "status": "success",
-  "session_id": "unique-session-id"
-}
-```
-
-#### **2. Send and Receive Messages**
-- **Endpoint:** `/stream-chat`
-- **Method:** `POST`
-- **Request Format:**
-```json
-{
-  "session_id": "unique-session-id",
-  "messages": [
-    {
-      "role": "user",
-      "content": "User message here"
-    }
-  ]
-}
-```
-- **Response Example:**
-```json
-{
-  "status": "success",
-  "response": "Assistant's response here",
-  "history": [
-    {
-      "role": "user",
-      "content": "User message here"
-    },
-    {
-      "role": "assistant",
-      "content": "Assistant's response here"
-    }
-  ]
-}
-```
-
-#### **3. Clear Conversation History**
-- **Endpoint:** `/clear-history`
-- **Method:** `POST`
-- **Request Format:**
-```json
-{
-  "session_id": "unique-session-id"
-}
-```
-- **Response Example:**
-```json
-{
-  "status": "success",
-  "message": "Chat history has been cleared."
-}
-```
 
 ---
 
